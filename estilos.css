@@ -1,0 +1,23 @@
+h1{
+    color:blue;
+    font-size: 60px;
+}
+#nombre{
+    color:coral;
+}
+
+.Novio{
+    color:chartreuse;
+}
+
+.caja{
+    width: 800px;
+    height: 750px;
+    margin: 100px;
+    border: 5px solid black;
+}
+
+.contenedor{
+    display: flex;
+    justify-content: space-around;
+}
