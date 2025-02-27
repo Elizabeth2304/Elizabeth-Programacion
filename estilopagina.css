@@ -1,36 +1,121 @@
+/* Reset de márgenes y paddings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
-    body {
-        font-family: Arial, sans-serif;
-        margin: 0;
-        padding: 0;
-        background-color: #f4f4f9;
-    }
-    header {
-        background-color: #4CAF50;
-        color: white;
-        text-align: center;
-        padding: 20px;
-    }
-    nav ul {
-        list-style: none;
-        padding: 0;
-    }
-    nav ul li {
-        display: inline;
-        margin: 0 10px;
-    }
-    nav ul li a {
-        text-decoration: none;
-        color: #333;
-        font-weight: bold;
-    }
-    footer {
-        background-color: #333;
-        color: white;
-        text-align: center;
-        padding: 10px;
-        position: fixed;
-        width: 100%;
-        bottom: 0;
-    }
+/* Centrar la caja en la pantalla */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4; /* Color neutro de fondo */
+    color: #333;
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+    min-height: 100vh; /* Hace que la caja se mantenga centrada */
+    padding: 20px;
+}
 
+/* Contenedor principal */
+.contenedor {
+    width: 90%;
+    max-width: 800px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    min-height: auto; /* Permite que crezca con el contenido */
+}
+
+/* Caja donde se encuentra toda la información */
+.caja {
+    text-align: center;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    min-height: auto; /* Permite que se expanda */
+    align-items: center; /* Asegura que el contenido también esté centrado */
+    padding: 20px; /* Espacio interno */
+}
+
+
+/* Encabezado y foto de perfil */
+.encabezado {
+    margin-bottom: 20px;
+}
+
+.foto-perfil {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-top: 15px;
+    border: 5px solid #9e4caf;
+}
+
+/* Estilo de los títulos */
+#nombre {
+    font-size: 2.5rem;
+    color: #9e4caf;
+    margin-bottom: 10px;
+}
+
+.name {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+/* Información adicional */
+.informacion {
+    text-align: left;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #555;
+}
+
+.informacion p {
+    margin-bottom: 10px;
+}
+
+.informacion a {
+    color: #9e4caf;
+    text-decoration: none;
+}
+
+.informacion a:hover {
+    text-decoration: underline;
+}
+
+/* Secciones de experiencia, educación, habilidades y redes sociales */
+.seccion {
+    margin-bottom: 30px;
+    text-align: left;
+}
+
+.seccion h3 {
+    font-size: 1.5rem;
+    color: #9e4caf;
+    margin-bottom: 10px;
+}
+
+.seccion ul {
+    list-style: none;
+    padding-left: 20px;
+}
+
+.seccion ul li {
+    margin-bottom: 10px;
+}
+
+.seccion ul li a {
+    color: #9e4caf;
+    text-decoration: none;
+}
+
+.seccion ul li a:hover {
+    text-decoration: underline;
+}
