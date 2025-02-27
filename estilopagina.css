@@ -8,12 +8,12 @@
 /* Centrar la caja en la pantalla */
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4; /* Color neutro de fondo */
+    background-color: #f4f4f4; 
     color: #333;
     display: flex;
-    justify-content: center; /* Centra horizontalmente */
-    align-items: center; /* Centra verticalmente */
-    min-height: 100vh; /* Hace que la caja se mantenga centrada */
+    justify-content: center; 
+    align-items: center; 
+    min-height: 100vh; 
     padding: 20px;
 }
 
@@ -27,29 +27,28 @@ body {
     padding: 30px;
     display: flex;
     flex-direction: column;
-    min-height: auto; /* Permite que crezca con el contenido */
+    min-height: auto; 
 }
 
-/* Caja donde se encuentra toda la información */
-/* Caja donde se encuentra toda la información */
+
 .caja {
     text-align: center;
     width: 100%;
     display: flex;
     flex-direction: column;
-    min-height: auto; /* Permite que se expanda */
-    align-items: center; /* Asegura que el contenido también esté centrado */
-    padding: 20px; /* Espacio interno */
+    min-height: auto; 
+    align-items: center; 
+    padding: 20px;
     
     /* Imagen de fondo */
-    background-image: url('fondo.jpg'); /* Cambia 'fondo.jpg' por la imagen que desees */
-    background-size: cover; /* Ajusta la imagen para cubrir toda la caja */
-    background-position: center; /* Centra la imagen */
-    background-repeat: no-repeat; /* Evita que la imagen se repita */
-    border-radius: 10px; /* Mantiene las esquinas redondeadas */
+    background-image: url('fondo.jpg'); 
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat;
+    border-radius: 10px; 
 }
 
-}
+
 
 
 /* Encabezado y foto de perfil */
